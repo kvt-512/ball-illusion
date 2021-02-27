@@ -1,0 +1,189 @@
+body {
+    background-color: black;
+}
+
+.box {
+    height: 600px;
+    width: 600px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+.ballOne {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    animation-name: rookOne;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    z-index: 1;
+}
+
+@keyframes rookOne {
+    0% {top: 300px; left: 0px;}
+    50% {top: 300px; left: 570px;}
+    100% {top: 300px; left: 0px;}
+}
+
+.ballTwo {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+    animation-name: rookTwo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    opacity: 0%;
+}
+
+@keyframes rookTwo {
+    0% {top: 0px; left: 280px; opacity: 100%;}
+    50% {top: 570px; left: 280px; opacity: 100%;}
+    100% {top: 0px; left: 280px; opacity: 100%;}
+    
+}
+
+.ballThree {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 83px;
+    left: 83px;
+    animation-name: rookThree;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 7.4s;
+    opacity: 0%;
+}
+
+@keyframes rookThree {
+    0% {top: 83px; left: 83px; opacity: 100%;}
+    50% {top: 487px; left: 487px; opacity: 100%;}
+    100% {top: 83px; left: 83px; opacity: 100%;}
+}
+
+.ballFour {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 63px;
+    left: 497px;
+    animation-name: rookFour;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 14.5s;
+    opacity: 0%;
+}
+
+@keyframes rookFour {
+    0% {top: 63px; left: 497px; opacity: 100%;}
+    50% {top: 457px; left: 83px; opacity: 100%;}
+    100% {top: 63px; left: 497px; opacity: 100%;}
+}
+
+//.ballFive {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    animation-name: rookFive;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+//@keyframes rookFive {
+    0% {top: 300px; left: 350px;}
+    50% {top: 300px; left: 950px;}
+    100% {top: 300px; left: 350px;}
+}
+
+//.ballSix {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    animation-name: rookSix;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+//@keyframes rookSix {
+    0% {top: 300px; left: 350px;}
+    50% {top: 300px; left: 950px;}
+    100% {top: 300px; left: 350px;}
+}
+
+//.ballSeven {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    animation-name: rookSeven;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+//@keyframes rookSeven {
+    0% {top: 300px; left: 350px;}
+    50% {top: 300px; left: 950px;}
+    100% {top: 300px; left: 350px;}
+}
+
+//.ballEight {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    left: 350px;
+    animation-name: rookEight;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+//@keyframes rookEight {
+    0% {top: 300px; left: 350px;}
+    50% {top: 300px; left: 950px;}
+    100% {top: 300px; left: 350px;}
+}
